@@ -1,28 +1,29 @@
 img {
-  /* clip-path: circle(50% at 50% 50%); */
-  height: 15vw;
-  width: 15vw;
-  border-radius: 5%;
+  border-radius: 20px;
+  width: 240px;
+  height: 240px;
 }
 
 .navbar {
-  font-size: 1.5vw;
+  font-size: 15px;
   background-color: #169A1A;
   color: white;
-  padding: 15px;
+  padding: 10px;
 }
 
 .header {
-  font-size: 3vw;
-  margin: 2.5% 0 2.5% 40%;
+  font-size: 37px;
+  margin: 2.5% 0 2.5% 10%;
   color: #149218;
+  text-align: center;
   font-weight: bolder;
 }
 
 .header-cuisine {
-  font-size: 2vw;
+  font-size: 25px;
   margin: 0 0 0 10%;
   color: #149218;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -30,48 +31,60 @@ img {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin-left: 10%;
+  margin-left: 8%;
 }
 
 .chinese {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin-left: 10%;
+  margin-left: 8%;
 }
 
 .italian-row1 {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
 .italian-row2 {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
 .chinese-row1 {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
 .food-block {
-  align-items: center;
-  width: 20%;
-  padding: 1vw 1vw 0 1vw;
-  margin: 1vw 3vw;
-  font-size: 1vw;
+  align-items: stretch;
+  font-size: 15px;
   background-color: #228B22;
   color: #FFFFFF;
-  border-radius: 5%;
+  margin: 20px 0 0 20px;
+  border-radius: 25px;
+  width: 250px;
+  height: auto;
+  padding: 10px;
+  padding-right: 0px;
 }
 
 .food-box-title {
   font-weight: bolder;
-  font-size: 1.2vw;
+  font-size: 18px;
   color: #FFFFFF;
 }
 
 .nav-item {
-  padding: 5px;
+  font-size: 18px;
+  padding: 10px;
 }
